@@ -1,0 +1,22 @@
+{
+  "name": "ainojs-requestframe",
+  "version": "1.0.0",
+  "description": "Cross-browser requestAnimationFrame",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aino/ainojs-requestframe"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aino/ainojs-requestframe/issues"
+  },
+  "homepage": "https://github.com/aino/ainojs-requestframe",
+  "main": "requestframe.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aino",
+  "devDependencies": {},
+  "dependencies": {
+  }
+}
