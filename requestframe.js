@@ -1,4 +1,4 @@
-module.exports = (function(){
+module.exports = (function(window){
   var r = 'RequestAnimationFrame'
   return window.requestAnimationFrame || 
     window['webkit'+r] || 
@@ -8,4 +8,4 @@ module.exports = (function(){
     function( callback ) {
       window.setTimeout(callback, 1000 / 60)
     }
-}())
+}(this))
