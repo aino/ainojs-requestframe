@@ -8,4 +8,4 @@ module.exports = (function(window){
     function( callback ) {
       window.setTimeout(callback, 1000 / 60)
     }
-}(this))
+}(new Function('return this')()))
