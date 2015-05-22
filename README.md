@@ -1,4 +1,4 @@
 Requestframe
 ------------
 
-Cross-browser requestAnimationFrame
+A cross-browser and isomorphic `requestAnimationFrame`.
